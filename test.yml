@@ -1,13 +1,13 @@
-name : Kavya
-age : 23
-address : "Tadipatri : Anantapur"
-active : true
-key : 
+name: Kavya
+age: 23
+address: "Tadipatri : Anantapur"
+active: true
+key: 
     key : value
-    key2 : value2
-    key1 : value 
-    key3 : value3
-    key5 : value5
+    key2 : 
+        key1 : value 
+        key3 : value3
+        key5 : value5
 array:
     - item1
     - item2
@@ -20,6 +20,13 @@ objectsArray:
       key3: value3
     - key4: value6
       key5: value5
+ 
+longTextSameLineInJSON : >
+    jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+    jdddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
-longText : jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-
+longTextNewline : |   
+    jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+    jdddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
