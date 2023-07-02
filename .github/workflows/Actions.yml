@@ -13,4 +13,14 @@ jobs:
             who-to-greet: Kavya
         - name: log Greeting time
           run: echo "${{steps.greet.outputs.time}}"
-
+        - name: List Files
+          run:  |
+            pwd
+            ls -a
+            git fetch
+        - name: Checkout
+          run: actions/checkout@v1 
+        - name: List of files after checkout
+          run: |
+            pwd
+            ls -a    
