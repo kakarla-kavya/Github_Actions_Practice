@@ -19,7 +19,7 @@ jobs:
             ls -a
             echo $GITHUB_SHA
             echo $GITHUB_REPOSITORY
-            echo $"{{github.token}}"
+            echo $"{{ github.token }}"
             echo $GITHUB_WORKSPACE
         - name: Checkout
           uses: actions/checkout@v1 
